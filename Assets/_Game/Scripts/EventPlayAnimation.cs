@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractPlayAnimation : MonoBehaviour, Interactable
+public class EventPlayAnimation : GameEvent
 {
     public string animName;
 
-    public void Interact()
+    public override void TriggerEvent()
     {
         GetComponent<Animator>().Play(animName);
     }

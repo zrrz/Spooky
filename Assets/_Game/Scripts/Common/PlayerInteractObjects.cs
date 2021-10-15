@@ -20,8 +20,8 @@ public class PlayerInteractObjects : MonoBehaviour
             {
                 if(hit.transform)
                 {
-                    Interactable interactable = hit.transform.GetComponent<Interactable>();
-                    interactable.Interact();
+                    GameEvent gameEvent = hit.transform.GetComponent<GameEvent>();
+                    gameEvent.TriggerEvent();
                 }
             }
         }

@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractDestroy : MonoBehaviour, Interactable
+public class EventDestroy : GameEvent
 {
-    public void Interact()
+    public override void TriggerEvent()
     {
         Destroy(gameObject);
     }
