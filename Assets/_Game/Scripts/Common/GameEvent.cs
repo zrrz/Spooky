@@ -10,16 +10,20 @@ public abstract class GameEvent : MonoBehaviour
     abstract public void TriggerEvent();
 
     [HideLabel]
-    [InfoBox("Only have one GameEvent per GameObject", InfoMessageType.Error, "multipleGameEvents")]
+    [InfoBox("Only have one GameEvent per GameObject", InfoMessageType.Error, "CheckMultipleGameEvents")]
+    [InfoBox("This object should be on the Interactable layer", InfoMessageType.Error, "CheckInteractiveLayer")]
     [ShowInInspector]
     private bool ignoreMe;
 
 #if UNITY_EDITOR
-    private static bool multipleGameEvents = false;
-
-    private void CheckMultipleGameEvents()
+    private bool CheckInteractiveLayer()
     {
-        multipleGameEvents = GetComponents<GameEvent>().Length > 1;
+        return gameObject.layer != LayerMask.NameToLayer("Interactable");
+    }
+
+    private bool CheckMultipleGameEvents()
+    {
+        return GetComponents<GameEvent>().Length > 1;
     }
 
     private void FixObjectName()

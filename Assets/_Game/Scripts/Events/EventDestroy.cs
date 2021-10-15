@@ -5,7 +5,7 @@ using Sirenix.OdinInspector;
 
 public class EventDestroy : GameEvent
 {
-    [InfoBox("This Game Event will destory a targeted GameObject")]
+    [InfoBox("This Game Event will destroy a targeted GameObject")]
     [SerializeField] private GameObject objectToDestroy;
 
     public override void TriggerEvent()
