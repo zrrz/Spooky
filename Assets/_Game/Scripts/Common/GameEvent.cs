@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
 
+[System.Serializable]
 [ExecuteInEditMode]
 public abstract class GameEvent : MonoBehaviour
 {
     abstract public void TriggerEvent();
 
-
     [HideLabel]
     [InfoBox("Only have one GameEvent per GameObject", InfoMessageType.Error, "multipleGameEvents")]
-    public bool ignoreMe;
+    [ShowInInspector]
+    private bool ignoreMe;
 
 #if UNITY_EDITOR
     private static bool multipleGameEvents = false;
