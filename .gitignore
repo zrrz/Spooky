@@ -34,3 +34,4 @@ sysinfo.txt
 
 # Builds
 *.apk
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
