@@ -1080,6 +1080,8 @@
         "m_GuidSerialized": "09a9ebaa-a12c-445a-853a-77d03f738262"
     },
     "m_Name": "CloudsAlpha",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_0d07dd78cfa64d6fbf7f88c6b069e9df",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -1242,6 +1244,8 @@
         "m_GuidSerialized": "418e8fc6-f387-4dd0-a4f7-347d750bed96"
     },
     "m_Name": "CloudsClamp",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector2_14ad63afaa9d476bb9994e39bc04af57",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -1683,6 +1687,8 @@
         "m_GuidSerialized": "e67a0d7b-67a5-4271-88a3-90669c78ae2e"
     },
     "m_Name": "CloudsColor",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Color_39023f87b67e45fa9cd944ebab82d05a",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2336,6 +2342,8 @@
         "m_GuidSerialized": "f756573c-5b83-4bed-add0-7e107e8b7410"
     },
     "m_Name": "VertexOffset",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_56323b89ab6a4d018d24b09c764a751b",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2577,6 +2585,8 @@
         "m_GuidSerialized": "7adbe74d-6cfd-4dcf-aaab-a9edf5813f81"
     },
     "m_Name": "Intersection",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_5b3b0c6f6fbf4686bf1905802ebfd38a",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2804,6 +2814,8 @@
         "m_GuidSerialized": "2b8716f1-e688-4e03-bb50-503f8894205e"
     },
     "m_Name": "DistortSpeed",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector2_68ec496e452a4945a45b51f5c6189d39",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2936,6 +2948,8 @@
         "m_GuidSerialized": "92a478c4-ddff-4654-86c2-fb5e9d25387e"
     },
     "m_Name": "CloudsScale",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_708281637e6e4941a6c660f36a8cb83b",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -3590,6 +3604,8 @@
         "m_GuidSerialized": "78534dba-acb6-4fcf-bc67-0a393a789fb0"
     },
     "m_Name": "CloudsSpeed",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector2_97c82385a96d41128be6a374d7ca3491",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -4517,6 +4533,8 @@
         "m_GuidSerialized": "c6e1c049-dc68-415e-9d1b-5ef9fbc4ca5d"
     },
     "m_Name": "AlphaClip",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_ca4143e649c34eaf8fda91884b58078d",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -5000,6 +5018,8 @@
         "m_GuidSerialized": "93a1b06b-624e-48c2-9c38-4b20b0708d3a"
     },
     "m_Name": "DistortScale",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_dd554bb561254d65a91a7cbd678a099a",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -5258,6 +5278,8 @@
         "m_GuidSerialized": "3d6205e8-0255-40f0-bb19-030b9c2f3ad7"
     },
     "m_Name": "CloudsPower",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_ef946adc812d4eb983085418fa4d6eba",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,

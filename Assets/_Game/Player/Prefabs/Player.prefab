@@ -15,6 +15,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 64
+  interactRange: 3
 --- !u!1001 &8622734807538321786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22,6 +23,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3840490878007688017, guid: 3dfaf6dc673a84745a6ac442cded13c3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92587036
+      objectReference: {fileID: 0}
+    - target: {fileID: 3840490878007688017, guid: 3dfaf6dc673a84745a6ac442cded13c3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.37784132
+      objectReference: {fileID: 0}
+    - target: {fileID: 3840490878007688017, guid: 3dfaf6dc673a84745a6ac442cded13c3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3840490878007688017, guid: 3dfaf6dc673a84745a6ac442cded13c3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3840490878799417794, guid: 3dfaf6dc673a84745a6ac442cded13c3, type: 3}
       propertyPath: m_Name
       value: Player
