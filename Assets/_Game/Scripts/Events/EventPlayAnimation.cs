@@ -12,7 +12,7 @@ public class EventPlayAnimation : GameEvent
 
     public override void TriggerEvent()
     {
-        GetComponent<Animator>().Play(animName);
+        animator.Play(animName);
     }
 
     private void OnValidate()
