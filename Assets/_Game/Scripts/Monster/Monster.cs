@@ -8,12 +8,16 @@ public class Monster : MonoBehaviour
     [SerializeField] private float turnSpeedDegrees = 30f;
     [SerializeField] private float moveSpeed = 3f;
 
-    UnityEngine.AI.NavMeshAgent navMeshAgent;
+    private UnityEngine.AI.NavMeshAgent navMeshAgent;
 
     void Start()
     {
         target = FindObjectOfType<FirstPersonController>().transform;
         navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        if(navMeshAgent == null)
+        {
+            Debug.LogError($"No {typeof(UnityEngine.AI.NavMeshAgent).Name} on gameObject", this);
+        }
     }
 
     void Update()
@@ -23,6 +27,7 @@ public class Monster : MonoBehaviour
         //Quaternion rotation = Quaternion.LookRotation(-direction);
         //transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, turnSpeedDegrees * Time.deltaTime);
         //transform.position += direction * moveSpeed * Time.deltaTime;
+
 
         navMeshAgent.SetDestination(target.position);
     }
